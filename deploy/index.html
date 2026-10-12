@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bhie's Birthday Tour '26</title>
+<meta name="description" content="Press play.">
+<meta property="og:title" content="For Bhie 💙">
+<meta property="og:description" content="Press play.">
+<meta name="theme-color" content="#050a1c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%232d6bff' d='M12 21s-7-4.5-9.5-9C.5 8 3 4 6.5 4c2 0 3.5 1.2 5.5 3.5C14 5.2 15.5 4 17.5 4 21 4 23.5 8 21.5 12c-2.5 4.5-9.5 9-9.5 9z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<audio id="song" src="assets/when-im-with-you.mp3" loop preload="auto"></audio>
+
+<!-- ============ INTRO: press play ============ -->
+<div id="intro" class="intro">
+  <p class="intro-kicker">a mixtape for</p>
+  <h1 class="intro-name">Bhie</h1>
+
+  <button id="playBtn" class="cassette" aria-label="Press play">
+    <span class="cassette-body">
+      <span class="cassette-label">
+        <span class="label-row"><span class="label-side">A</span><span class="label-title">Bhie's Mix '26</span></span>
+        <span class="cassette-window">
+          <span class="reel reel-l"></span>
+          <span class="reel reel-r"></span>
+        </span>
+        <span class="label-track">01 · When I'm With You — Faber Drive</span>
+      </span>
+      <span class="cassette-bottom"></span>
+    </span>
+  </button>
+
+  <p class="intro-hint" id="introHint">▶ tap the tape to press play<br><small>(turn your volume up)</small></p>
+</div>
+
+<!-- ============ SITE ============ -->
+<main id="site" inert>
+
+  <!-- HERO -->
+  <section class="hero">
+    <svg class="doodle d-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.9 6.9L22 10l-5.5 4.8L18.2 22 12 18.3 5.8 22l1.7-7.2L2 10l7.1-1.1z"/></svg>
+    <svg class="doodle d-heart" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.5-9.5-9C.5 8 3 4 6.5 4c2 0 3.5 1.2 5.5 3.5C14 5.2 15.5 4 17.5 4 21 4 23.5 8 21.5 12c-2.5 4.5-9.5 9-9.5 9z"/></svg>
+    <svg class="doodle d-bolt" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>
+
+    <div class="hero-inner">
+      <p class="kicker">Live · One night only · Oct 17, 2026</p>
+      <h2 class="hero-title">
+        <span>Happy</span>
+        <span class="big">32<sup>nd</sup></span>
+        <span>Birthday</span>
+      </h2>
+      <p class="hero-name">Paulyn “Bhie”<br>Jumawan-Esquillo</p>
+
+      <div class="countdown" id="countdown">
+        <div style="--r:-3deg"><b id="cd-d">0</b><span>days</span></div>
+        <div style="--r:2deg"><b id="cd-h">00</b><span>hrs</span></div>
+        <div style="--r:-1deg"><b id="cd-m">00</b><span>min</span></div>
+        <div style="--r:3deg"><b id="cd-s">00</b><span>sec</span></div>
+      </div>
+      <p class="countdown-note" id="cdNote">until the show starts</p>
+
+      <a href="#story" class="scroll-cue">scroll ↓</a>
+    </div>
+  </section>
+
+  <!-- OUR STORY -->
+  <section id="story" class="section reveal">
+    <h2 class="section-title">Our Story <small>Side A · est. 2011</small></h2>
+
+    <div class="polaroids">
+      <figure class="polaroid" style="--r:-4deg">
+        <div class="photo"><img src="assets/photos/enhanced/01.jpg" alt="Our family in matching Family is Forever shirts" loading="lazy"></div>
+        <figcaption>family is forever</figcaption>
+      </figure>
+      <figure class="polaroid" style="--r:3deg">
+        <div class="photo"><img src="assets/photos/enhanced/02.jpg" alt="Kissy-face selfie in bed with heart filters" loading="lazy"></div>
+        <figcaption>lazy days, kissy faces 💋</figcaption>
+      </figure>
+      <figure class="polaroid" style="--r:-2deg">
+        <div class="photo"><img src="assets/photos/enhanced/03.jpg" alt="The whole crew with cat filters" loading="lazy"></div>
+        <figcaption>the whole crew 🐾</figcaption>
+      </figure>
+      <figure class="polaroid" style="--r:4deg">
+        <div class="photo"><img src="assets/photos/enhanced/04.jpg" alt="Us with bunny and cat ear filters" loading="lazy"></div>
+        <figcaption>certified SNOW era</figcaption>
+      </figure>
+
+      <!-- centerpiece: the wedding kiss -->
+      <figure class="polaroid featured" style="--r:-1.5deg">
+        <div class="photo"><img src="assets/photos/enhanced/07.jpg" alt="Our first kiss as husband and wife" loading="lazy"></div>
+        <figcaption>“I do.” — forever starts here ♥</figcaption>
+      </figure>
+
+      <figure class="polaroid" style="--r:-3deg">
+        <div class="photo"><img src="assets/photos/enhanced/05.jpg" alt="Us with puppy filters" loading="lazy"></div>
+        <figcaption>arf arf, I love you</figcaption>
+      </figure>
+      <figure class="polaroid" style="--r:2deg">
+        <div class="photo"><img src="assets/photos/enhanced/06.jpg" alt="Selfie, you doing the pout" loading="lazy"></div>
+        <figcaption>pout game: 100</figcaption>
+      </figure>
+      <figure class="polaroid" style="--r:-4deg">
+        <div class="photo"><img src="assets/photos/enhanced/08.jpg" alt="Late night selfie with cat ears" loading="lazy"></div>
+        <figcaption>late nights, just us</figcaption>
+      </figure>
+      <figure class="polaroid" style="--r:3deg">
+        <div class="photo"><img src="assets/photos/enhanced/10.jpg" alt="Us with our finisher medals" loading="lazy"></div>
+        <figcaption>finishers, together 🏅</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- WHY YOU: flip the guitar picks -->
+  <section class="section reveal">
+    <h2 class="section-title">Why You, Bhie <small>Track 01 · tap each pick</small></h2>
+    <div class="picks">
+      <button class="pick-card" aria-pressed="false" style="--r:-6deg">
+        <span class="pick-inner">
+          <span class="pick-face pick-front"><span class="pick-shape"></span><span class="pick-label">01</span></span>
+          <span class="pick-face pick-back"><span class="pick-shape"></span><span class="pick-text">You've stood by me since 2011.</span></span>
+        </span>
+      </button>
+      <button class="pick-card" aria-pressed="false" style="--r:4deg">
+        <span class="pick-inner">
+          <span class="pick-face pick-front"><span class="pick-shape"></span><span class="pick-label">02</span></span>
+          <span class="pick-face pick-back"><span class="pick-shape"></span><span class="pick-text">Even on my not-so-best days.</span></span>
+        </span>
+      </button>
+      <button class="pick-card" aria-pressed="false" style="--r:-3deg">
+        <span class="pick-inner">
+          <span class="pick-face pick-front"><span class="pick-shape"></span><span class="pick-label">03</span></span>
+          <span class="pick-face pick-back"><span class="pick-shape"></span><span class="pick-text">You said “I do” and meant it.</span></span>
+        </span>
+      </button>
+      <button class="pick-card" aria-pressed="false" style="--r:7deg">
+        <span class="pick-inner">
+          <span class="pick-face pick-front"><span class="pick-shape"></span><span class="pick-label">04</span></span>
+          <span class="pick-face pick-back"><span class="pick-shape"></span><span class="pick-text">Your kissy face. Gets me every time.</span></span>
+        </span>
+      </button>
+      <button class="pick-card" aria-pressed="false" style="--r:-5deg">
+        <span class="pick-inner">
+          <span class="pick-face pick-front"><span class="pick-shape"></span><span class="pick-label">05</span></span>
+          <span class="pick-face pick-back"><span class="pick-shape"></span><span class="pick-text">Silly filters with you > anything.</span></span>
+        </span>
+      </button>
+      <button class="pick-card" aria-pressed="false" style="--r:3deg">
+        <span class="pick-inner">
+          <span class="pick-face pick-front"><span class="pick-shape"></span><span class="pick-label">06</span></span>
+          <span class="pick-face pick-back"><span class="pick-shape"></span><span class="pick-text">You cross finish lines with me.</span></span>
+        </span>
+      </button>
+      <button class="pick-card" aria-pressed="false" style="--r:-7deg">
+        <span class="pick-inner">
+          <span class="pick-face pick-front"><span class="pick-shape"></span><span class="pick-label">07</span></span>
+          <span class="pick-face pick-back"><span class="pick-shape"></span><span class="pick-text">Family is forever, with you.</span></span>
+        </span>
+      </button>
+      <button class="pick-card" aria-pressed="false" style="--r:5deg">
+        <span class="pick-inner">
+          <span class="pick-face pick-front"><span class="pick-shape"></span><span class="pick-label">08</span></span>
+          <span class="pick-face pick-back"><span class="pick-shape"></span><span class="pick-text">The back seat is always yours. 🏍️</span></span>
+        </span>
+      </button>
+    </div>
+    <p class="picks-count" id="picksCount" aria-live="polite">0 / 8 flipped</p>
+  </section>
+
+  <!-- THE QUESTION -->
+  <section id="question" class="section question reveal">
+    <p class="kicker">Track 02</p>
+    <h2 class="q-title" id="qTitle">So, Bhie…<br>will you go out with me<br>on <span>October 17</span>?</h2>
+
+    <div class="q-arena" id="arena">
+      <button id="yesBtn" class="btn btn-yes">YES ♥</button>
+      <button id="noBtn" class="btn btn-no">no</button>
+    </div>
+    <p class="q-taunt" id="taunt" aria-live="polite"></p>
+  </section>
+
+  <!-- unlocked after YES -->
+  <div id="afterYes" hidden>
+
+    <section id="tour" class="section">
+      <h2 class="section-title">The Birthday Tour <small>Track 03 · Oct 17, 2026</small></h2>
+      <p class="tour-intro">It's a date!! Now pick the setlist, birthday girl. 🎸</p>
+
+      <div class="setlist">
+        <div class="track">
+          <span class="track-no">01</span>
+          <div>
+            <h3>The Ride 🏍️</h3>
+            <p>Just you, me, and the open road. How far are we going?</p>
+            <div class="choices" data-group="ride" data-mode="single">
+              <button class="chip" aria-pressed="false" data-value="Long ride">Long Ride</button>
+              <button class="chip" aria-pressed="false" data-value="Short ride">Short Ride</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="track">
+          <span class="track-no">02</span>
+          <div>
+            <h3>The Food 🍽️</h3>
+            <p>Your birthday, your call. Pick as many as you want.</p>
+            <div class="choices" data-group="meals" data-mode="multi">
+              <button class="chip" aria-pressed="false" data-value="Breakfast">Breakfast</button>
+              <button class="chip" aria-pressed="false" data-value="Lunch">Lunch</button>
+              <button class="chip" aria-pressed="false" data-value="Dinner">Dinner</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="track">
+          <span class="track-no">03</span>
+          <div>
+            <h3>Dress Code 👕</h3>
+            <p>Comfy and casual. Bring a jacket for the ride.</p>
+            <span class="tag">Casual</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lock-row">
+        <button id="lockBtn" class="btn btn-yes" disabled>Lock in my setlist</button>
+        <p class="lock-hint" id="lockHint">pick a ride + at least one meal</p>
+      </div>
+
+      <div class="ticket-wrap" id="ticketWrap" hidden>
+        <div class="ticket">
+          <div class="ticket-main">
+            <p class="ticket-kicker">Bhie's Birthday Tour '26</p>
+            <h3>Admit One: Bhie</h3>
+            <dl>
+              <dt>Date</dt><dd>Sat · Oct 17, 2026</dd>
+              <dt>Ride</dt><dd id="tRide">—</dd>
+              <dt>Food</dt><dd id="tMeals">—</dd>
+              <dt>Dress</dt><dd>Casual</dd>
+              <dt>Driver</dt><dd>your Bhie 🏍️</dd>
+            </dl>
+          </div>
+          <div class="ticket-stub"><span>Admit One</span></div>
+        </div>
+        <div class="ticket-actions">
+          <button id="shareBtn" class="btn btn-yes btn-sm">Send to Bhie 💌</button>
+          <button id="editBtn" class="btn btn-ghost btn-sm">Change picks</button>
+        </div>
+        <p class="lock-hint">or screenshot your ticket and send it to me 📸</p>
+      </div>
+    </section>
+
+    <section class="section encore">
+      <p class="kicker">Encore</p>
+      <figure class="polaroid encore-photo" style="--r:-5deg">
+        <div class="photo"><img src="assets/photos/enhanced/09.jpg" alt="One of our earliest photos together" loading="lazy"></div>
+        <figcaption>where it started</figcaption>
+      </figure>
+      <h2 class="encore-line">Since 2011,<br>and you're still<br>my favorite song.</h2>
+      <p class="encore-sub">Happy 32nd, Bhie. See you on the 17th. Wear something comfy and hold on tight. 🏍️💙</p>
+      <p class="encore-sig">— your Bhie</p>
+    </section>
+
+  </div>
+
+  <footer class="footer">made with 💙 by your Bhie, with Faber Drive on repeat</footer>
+</main>
+
+<dialog id="lightbox" class="lightbox" aria-label="Photo">
+  <figure>
+    <img id="lbImg" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+</dialog>
+
+<button id="player" class="player paused" aria-label="Play music" hidden>
+  <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+  <span class="player-text">When I'm With You<small>Faber Drive</small></span>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
